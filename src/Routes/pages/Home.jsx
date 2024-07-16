@@ -29,7 +29,7 @@ const [loading,setLoading]= useState(true)
       <div className="container mx-auto p-4">
         <div className="parent">
         <img src={Designer} className='image max-w-full h-auto' alt="me" />
-          <div id="popup" className="popup w-full md:w-1/3 p-4 mb-4 ${popupsVisible ? 'show' : ''}`">
+          <div id="popup" className="popup w-full md:w-1/3 p-4 mb-4">
             <p>
               <b className='bold'>𝓗𝓲, 𝓘'𝓶 𝓟𝓻𝓪𝓷𝓪𝓿,</b><br />
               <span className='para'>
@@ -39,7 +39,7 @@ const [loading,setLoading]= useState(true)
           </div>
           
           
-          <div id="popup2" className="popup2 w-full md:w-1/3 p-4 mb-4 ${popupsVisible ? 'show' : ''}`">
+          <div id="popup2" className="popup2 w-full md:w-1/3 p-4 mb-4 ">
             <p>
               <b className='bold'>𝓕𝓸𝓬𝓾𝓼𝓲𝓷𝓰 𝓞𝓷:</b><br />
               <span className='para'>
