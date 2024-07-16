@@ -50,10 +50,11 @@ export default function Root() {
           </button>
           {isDropdownOpen && (
             <ul className="absolute right-0 mt-2 py-2 w-48 bg-black border rounded shadow-xl">
-              <li><Link to="/skills" className=" profile ">Skills</Link></li>
-              <li><Link to="/project" className=" profile ">Projects</Link></li>
-              <li><Link to="/about" className="profile ">About</Link></li>
-              <li><Link to="/contact" className="profile ">Contact</Link></li>
+               <li><Link to="/" className=" profile " onClick={toggleDropdown}>Home</Link></li>
+              <li><Link to="/skills" className=" profile " onClick={toggleDropdown}>Skills</Link></li>
+              <li><Link to="/project" className=" profile " onClick={toggleDropdown}>Projects</Link></li>
+              <li><Link to="/about" className="profile " onClick={toggleDropdown}>About</Link></li>
+              <li><Link to="/contact" className="profile " onClick={toggleDropdown}>Contact</Link></li>
             </ul>
           )}
         </div>

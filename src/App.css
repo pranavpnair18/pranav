@@ -26,29 +26,17 @@ Link{
 
   font-weight: bolder;
 }
-.image{
-  
-  
-  width: 25%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border: 2px solid #d60e40;
- 
-  
 
-}
 .popup {
   position: fixed;
   top: 50%;
-  left: -500px; /* Start off-screen */
+  left: -300px; /* Start off-screen */
   transform: translateY(-50%);
   width: 300px;
   padding: 20px;
   background-color: transparent;
-  color: white;
-  
-  transition: left 1.5s ease;
+
+  transition: left 1s ease;
 }
 
 .popup.show {
@@ -64,7 +52,7 @@ Link{
   background-color: transparent;
   
   
-  transition: right 1.5s ease; /* Transitioning right for the right popup */
+  transition: right 1s ease; /* Transitioning right for the right popup */
 }
 
 .popup2.show {
@@ -117,7 +105,7 @@ flex-direction: row;
 }
 .pro{
   border: 2px solid red;
-  width: 35%;
+  
   word-wrap: break-word; /* Forcing long words to break */
   overflow-wrap: break-word; /* Standard property */
   white-space: normal; 

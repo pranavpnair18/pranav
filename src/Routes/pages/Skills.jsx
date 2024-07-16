@@ -42,7 +42,7 @@ const itemss = [
     <>
    {itemss.map((ite, index)=>{
     return(  <div className='promain' key={index}>
-      <div className='pro'>
+      <div className='pro w-3/4 md:w-1/3 lg:w-1/3 xl:w-1/3'>
        <h2 className='proname'><b>{ite.name}</b></h2>
        <h5 className='prolab'>{ite.desc}</h5>
       </div>
