@@ -1,0 +1,220 @@
+
+
+#root {
+  max-width: 1280px;
+  width: 95%;
+  margin: 0 auto;
+  text-align: center;
+  
+}
+
+
+
+
+.profile{
+  background: linear-gradient(#d60e40, #3e0021);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+ 
+}
+h1 a {
+  text-decoration: none;
+  color: inherit; /* Use inherited color (transparent) */
+}
+Link{
+
+  font-weight: bolder;
+}
+.image{
+  
+  
+  width: 25%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #d60e40;
+ 
+  
+
+}
+.popup {
+  position: fixed;
+  top: 50%;
+  left: -500px; /* Start off-screen */
+  transform: translateY(-50%);
+  width: 300px;
+  padding: 20px;
+  background-color: transparent;
+  color: white;
+  
+  transition: left 1.5s ease;
+}
+
+.popup.show {
+  left: 3%; /* Slide in to the left edge of the screen */
+}
+.popup2 {
+  position: fixed;
+  top: 50%;
+  right: -500px; /* Start off-screen */
+  transform: translateY(-50%);
+  width: 300px;
+  padding: 20px;
+  background-color: transparent;
+  
+  
+  transition: right 1.5s ease; /* Transitioning right for the right popup */
+}
+
+.popup2.show {
+  right: 3%; /* Slide in to the right edge of the screen */
+}
+.bold{
+  font-size: 2rem;
+  font-weight: 300px;
+  background: linear-gradient(#d60e40, #3e0021);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  
+}
+.para{
+  color: #ee4545;
+}
+li{
+  margin: 10px 0;
+}
+.parent{
+  display: flex;
+flex-direction: row;
+
+}
+@media (max-width: 800px) {
+  .parent {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .popup,
+  .popup2 {
+    position: static;
+    transform: translateY(0);
+    margin-bottom: 20px;
+    width: auto;
+  }
+
+  .popup.show,
+  .popup2.show {
+    left: auto;
+    right: auto;
+  }
+
+  .image {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+}
+.pro{
+  border: 2px solid red;
+  width: 35%;
+  word-wrap: break-word; /* Forcing long words to break */
+  overflow-wrap: break-word; /* Standard property */
+  white-space: normal; 
+  
+}
+.proname{
+  font-size: larger;
+  color: #d60e40;
+  margin: 10px 0;
+}
+.prolab{
+  font-size: small;
+  color: #ee4545;
+  margin: 10px 0;
+}
+.prostate{
+  color: white;
+  margin: 10px 0;
+
+}
+.prolink{
+  color: #0000ed;
+  padding: auto;
+  
+}
+.promain{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 15px;
+}
+.newimg{
+  width: 22%;
+  height: 12%;
+  border: 2px solid red;
+  margin: auto;
+}
+.ab{
+  
+  color: #ee4545;
+  margin: auto;
+  text-align: left;
+
+}
+.abmain{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  
+}
+@media (max-width:800px) {
+  .abmain{
+    display: flex;
+    flex-direction: column;
+  }
+  .newimg{
+    width: 28%;
+    height: 18%;
+  }
+}
+.contimg{
+  width: 25%;
+}
+.icons{
+  margin: auto;
+  font-size: 40px;
+  color: white;
+}
+.mainicon{
+width: 30%;
+  display: flex;
+  justify-content: space-around;
+}
+.mainc{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.pfo{
+  margin: auto;
+}
+/* .square{
+     border: 1px solid black;
+     height: 80px;
+     width: 200px;
+     display: flex; /* Enable flexbox */
+     /* justify-content: center; /* Center horizontally */
+     /* align-items: center; /* Center vertically */
+     /* text-align: center;    */
+      
+/* } * */
