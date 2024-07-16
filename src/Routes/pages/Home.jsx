@@ -24,7 +24,7 @@ const Home = () => {
         </p>
       </div>
 
-      <img src={Designer} className="w-1/4 border-2 border-red-600 rounded-full" alt="me" />
+      <img src={Designer} className="w-1/4  border-2 m-auto border-red-600 rounded-full" alt="me" />
 
       <div className={`transition-all duration-1000 transform ${popupsVisible ? 'translate-x-0' : 'translate-x-full'} w-full md:w-1/3 p-4 bg-transparent text-white`}>
         <p>

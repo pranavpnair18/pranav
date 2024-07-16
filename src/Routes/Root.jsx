@@ -49,7 +49,7 @@ export default function Root() {
             Menu
           </button>
           {isDropdownOpen && (
-            <ul className="absolute right-0 mt-2 py-2 w-48 bg-black border rounded shadow-xl">
+            <ul className="absolute right-0 mt-2 py-2 w-48 bg-black border rounded shadow-xl z-50">
                <li><Link to="/" className=" profile " onClick={toggleDropdown}>Home</Link></li>
               <li><Link to="/skills" className=" profile " onClick={toggleDropdown}>Skills</Link></li>
               <li><Link to="/project" className=" profile " onClick={toggleDropdown}>Projects</Link></li>

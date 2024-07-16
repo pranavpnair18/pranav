@@ -171,16 +171,19 @@ flex-direction: row;
 .contimg{
   width: 25%;
 }
+
+@media (max-width:800px) {
+  .contimg{
+    width: 45%;
+  }
+
+}
 .icons{
   margin: auto;
   font-size: 40px;
   color: white;
 }
-.mainicon{
-width: 30%;
-  display: flex;
-  justify-content: space-around;
-}
+
 .mainc{
   display: flex;
   flex-direction: column;
